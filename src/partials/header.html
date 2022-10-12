@@ -1,0 +1,190 @@
+<header class="header__section">
+  <div class="container header">
+    <nav class="header__nav-comp">
+      <a href="./index.html" rel="noreferrer noopener nofollow">
+        <picture>
+          <source srcset="
+          ./images/header/main-logo-comp-1x.png 1x, 
+          ./images/header/main-logo-comp-2x.png 2x
+          " media="(min-width: 1280px)" />
+          <source srcset="
+          ./images/header/main-logo-tab-1x.png 1x, 
+          ./images/header/main-logo-tab-2x.png 2x
+          " media="(min-width: 768px)" />
+          <source srcset="
+          ./images/header/main-logo-mob-1x.png 1x,
+          ./images/header/main-logo-mob-2x.png 2x
+          " media="(max-width: 767px)" />
+          <img class="header__main-logo" src="./images/header/main-logo-comp-1x.png" alt="logo" />
+        </picture>
+      </a>
+
+      <ul class="header__nav-ul">
+        <li class="header__nav-item">
+          <a
+            class="header__nav"
+            href="./index.html"
+            rel="noreferrer noopener nofollow"
+            >Home</a
+          >
+        </li>
+        <li class="header__nav-item">
+          <a
+            class="header__nav favorite"
+            href="./favor-ingreds.html"
+            rel="noreferrer noopener nofollow"
+            >Favorite</a
+          >
+
+          <ul class="favorite-div none">
+            <li class="favorite-div-item top">
+              <a href="./favor-coctails.html" rel="noreferrer noopener nofollow"
+                >Favorite cocktails</a>
+            </li>
+            <li class="favorite-div-item bottom">
+              <a
+                href="./favor-ingreds.html"
+                rel="noreferrer noopener nofollow"
+                >Favorite ingredients</a
+              >
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+
+    <form class="header__search-form">
+      <button type="submit" class="header__search-btn">
+        <svg width="24px" height="24px">
+          <use href="./images/svg/symbol-defs.svg#icon-search"></use>
+        </svg>
+      </button>
+      <input
+        type="text"
+        name="coctailName"
+        placeholder="Search"
+        class="header__input"
+      />
+    </form>
+
+    <button class="header__open-modal-btn" type="button" data-header-modal-open>
+      <svg width="30px" height="16px">
+        <use href="./images/svg/symbol-defs.svg#icon-menu"></use>
+      </svg>
+    </button>
+
+    <div class="header-switch">
+      <span class="header-light">Light</span>
+      <span>
+        <label class="switcher">
+          <input data-switcher-desktop type="checkbox" />
+          <span class="dark-button" data-theme="light"></span>
+        </label>
+      </span>
+      <span class="header-dark">Dark</span>
+    </div>
+
+    <!-- Модальное окно header -->
+    <div class="header__modal is-hidden" data-header-modal>
+      <div class="header__modal-top">
+        <a
+          href="./index.html"
+          rel="noreferrer noopener nofollow"
+          class="header__modal-logo"
+        >
+        <picture>
+          <source srcset="
+          ./images/header/coctails-tab-1x.png 1x, 
+          ./images/header/coctails-tab-2x.png 2x
+          " media="(min-width: 768px)" />
+          <img src="./images/header/coctails-tab-1x.png" alt="logo" />
+        </picture>
+
+        </a>
+        <div class="header-switch__burger">
+          <span class="header-light">Light</span>
+          <span>
+            <label class="switcher">
+              <input type="checkbox" />
+              <span class="dark-button" data-theme="light"></span>
+            </label>
+          </span>
+          <span class="header-dark">Dark</span>
+        </div>
+
+        <button
+          type="button"
+          class="header__modal-close"
+          data-header-modal-close
+        >
+          <svg class="" width="18px" height="18px">
+            <use href="./images/svg/symbol-defs.svg#icon-close"></use>
+          </svg>
+        </button>
+      </div>
+
+      <form class="header__modal-form">
+        <button type="submit" class="header__modal-search-btn">
+          <svg width="24px" height="24px">
+            <use href="./images/svg/symbol-defs.svg#icon-search"></use>
+          </svg>
+        </button>
+
+        <input
+          type="text"
+          name="coctailName"
+          placeholder="Search"
+          class="header__modal-input"
+        />
+      </form>
+
+      <nav>
+        <ul class="header__nav-list">
+          <li class="header__nav-item">
+            <a
+              class="header__nav"
+              href="./index.html"
+              rel="noreferrer noopener nofollow"
+              >Home</a
+            >
+          </li>
+          <li class="header__nav-item">
+            <a
+              class="header__nav"
+              href=""
+              rel="noreferrer noopener nofollow"
+              >Favorite</a
+            >
+
+            <button class="btn-down favorite-modal">
+              <svg width="18px" height="10px">
+                <use href="./images/svg/symbol-defs.svg#icon-down"></use>
+              </svg>
+            </button>
+
+            <ul class="favorite-div-modal none">
+              <li class="favorite-div-item top">
+                <a href="./favor-coctails.html" rel="noreferrer noopener nofollow"
+                  >Favorite cocktails</a
+                >
+              </li>
+              <li class="favorite-div-item bottom">
+                <a
+                  href=""
+                  rel="noreferrer noopener nofollow"
+                  >Favorite ingredients</a
+                >
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  
+</div>
+</header> 
+
+</header>
+

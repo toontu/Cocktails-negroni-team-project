@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta property="og:title" content="Try the most delicious cocktails" />
+    <meta property="og:type" content="article" />
+    <meta
+      property="og:description"
+      content="Have you tried the new Negroni? Rather to us"
+    />
+    <meta
+      property="og:url"
+      content="https://znst.github.io/negroni-commandProject-js/"
+    />
+    <meta property="og:image" content="./images/open-graph/Vampiro-2.jpg" />
+    <title>Words of Cocktails</title>
+    <link rel="icon" href="./images/favicon/favicon.png" type="image/x-icon" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&family=Roboto:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./favor-coctails.js"></script>
+    <script type="module" src="./js/favor-ingreds.js"></script>
+  </head>
+  <body>
+    <include src="./partials/favor-ingr-main.html"></include>
+    <div class="wrapper">
+      <include src="./partials/header.html"></include>
+      <div class="favor-ingreds container">
+        <h2 class="favor-ingreds__title">Favorite ingredients</h2>
+        <ul class="favor-ingreds__list" data-page="favor-ingreds">
+          <!-- <li class="ingreds__item">
+            <h3 class="ingreds__item__title">Campari</h3>
+            <p class="ingreds__item__descript">Liqueur</p>
+            <div class="btn-container">
+              <button type="button" class="btn-rusty btn-ingred">
+                Learn more
+              </button>
+              <button type="button" class="btn-transpar btn-ingred">
+                Remove<svg class="btn__icon" width="18" height="18">
+                  <use href="./images/svg/symbol-defs.svg#icon-heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="ingreds__item">
+            <h3 class="ingreds__item__title">Campari</h3>
+            <p class="ingreds__item__descript">Liqueur</p>
+            <div class="btn-container">
+              <button type="button" class="btn-rusty btn-ingred">
+                Learn more
+              </button>
+              <button type="button" class="btn-transpar btn-ingred">
+                Remove<svg class="btn__icon" width="18" height="18">
+                  <use href="./images/svg/symbol-defs.svg#icon-heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li>
+          <li class="ingreds__item">
+            <h3 class="ingreds__item__title">Campari</h3>
+            <p class="ingreds__item__descript">Liqueur</p>
+            <div class="btn-container">
+              <button type="button" class="btn-rusty btn-ingred">
+                Learn more
+              </button>
+              <button type="button" class="btn-transpar btn-ingred">
+                Remove<svg class="btn__icon" width="18" height="18">
+                  <use href="./images/svg/symbol-defs.svg#icon-heart"></use>
+                </svg>
+              </button>
+            </div>
+          </li> -->
+        </ul>
+      </div>
+    </div>
+
+    <include src="./partials/modal_coctail.html"></include>
+    <include src="./partials/modalw2.html"></include>
+    <include src="./partials/footer.html"></include>
+  </body>
+</html>
